@@ -12,11 +12,17 @@ To initialize your local repository, use a command like this:
 repo init -u https://github.com/Project-LegionOS/manifest.git -b 11
 
 ```
+You can alternatively use this command to save some space and time :
+
+```bash
+repo init --depth=1 -u https://github.com/Project-LegionOS/manifest.git -b 11
+
+```
 
 Then to sync up:
 
 ```
-repo sync -c --force-sync --no-clone-bundle -j8
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 ---------------------------------------------------------------------------------------
@@ -27,11 +33,11 @@ From root directory of project, perform following commands in terminal
 
 ```bash
 $ . build/envsetup.sh
-$ lunch
+$ lunch legion_<device_codename>-buildtype
 $ make legion
 ```
 ---------------------------------------------------------------------------------------
- Maintainers:
+ Maintainership:
  ================
 
  Apply for official maintainership [**Here**](https://docs.google.com/forms/d/e/1FAIpQLSfFtMhXooFToxvjTAk-5vt2t06BVnRKhhdkXvDgJE3c6cZ8wg/viewform)
@@ -40,7 +46,7 @@ $ make legion
  TeamLegionOS
  ===============
 
- * [**Rajkale99**](https://t.me/rajkale99) - Founder/Lead Developer
+ * [**Rajkale99**](https://t.me/rajkale99) - Founder & Lead Developer
  
 ---------------------------------------------------------------------------------------
  Credits:
