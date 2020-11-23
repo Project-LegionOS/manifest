@@ -8,7 +8,7 @@
           sync-j="8" />
   
   <!-- LegionOS Devices -->
-  <remote name="LegionOS-Devices"
+  <remote name="legionos-devices"
           fetch="https://github.com/LegionOS-Devices"
           revision="refs/heads/q"
           sync-j="8" />
