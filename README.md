@@ -26,16 +26,17 @@ You can just use `repo sync` or above command, but this will save you from lot o
 repo sync -c -q --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 ---------------------------------------------------------------------------------------
- Compilation of  Lion-OS:
+ The start  of Lion-OS:
  ==================
 
 From root directory of project, perform following commands in terminal
 
-```bash
 $ . build/envsetup.sh
 $ lunch legion_<device_codename>-buildtype
 $ make legion
+
 ---------------------------------------------------------------------------------------
+
  Credits:
  =======
 

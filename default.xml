@@ -717,8 +717,8 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- LegionOS Manifest -->
-  <include name="legion.xml" />
+  <!-- Lion-OS Manifest -->
+  <include name="lion.xml" />
 
 </manifest>
 
