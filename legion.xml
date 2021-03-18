@@ -27,7 +27,7 @@
 
   <!--Legion Lab-->
   <remote name="leg-lab"
-          fetch="https://gitlab.com/Rajkale99"
+          fetch="https://gitlab.com/projectlegionos"
           revision="refs/heads/11"
           sync-j="8" />
 
