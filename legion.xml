@@ -242,5 +242,9 @@
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="lineage"  />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="lineage" />
 
-</manifest>
+  <!-- OTA -->
+  <project path="OTA" name="OTA" remote="LegionOS-Devices">
+      <linkfile src="ota.sh" dest="ota.sh" />
+  </project>
 
+</manifest>
