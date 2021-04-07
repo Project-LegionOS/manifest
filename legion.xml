@@ -214,6 +214,7 @@
   <project path="system/vold" name="system_vold" remote="legion" revision="11" />
   <project path="system/update_engine" name="system_update_engine" remote="legion" revision="11" />
   <project path="system/netd" name="system_netd" remote="legion" revision="11" />
+  <project path="system/security" name="system_security" remote="legion" revision="11" />
 
   <!-- Tools -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
