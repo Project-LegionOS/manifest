@@ -196,7 +196,8 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="legion"  />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="legion"  />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="legion"  />
-
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="legion"  />
+ 
   <!-- Prebuilt -->
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="legion"  />
   <project path="prebuilts/tools-legion" name="prebuilts_tools-legion" remote="legion" clone-depth="1" />
