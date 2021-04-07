@@ -67,7 +67,7 @@
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="legion" />
   <project path="external/scudo" name="android_external_scudo" remote="common" />
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="legion"  />
-  <project path="external/motorola/faceunlock" name="external_motorola_faceunlock" remote="leg-lab"  />
+  <project path="external/faceunlock" name="external_faceunlock" remote="leg-lab"  />
   <project path="external/libcxx" name="external_libcxx" remote="legion"  />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="legion" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
