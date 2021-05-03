@@ -226,7 +226,9 @@
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
 
   <!-- Vendors -->
-  <project path="vendor/legion" name="vendor_legion" remote="legion" revision="11" />
+  <project path="vendor/legion" name="vendor_legion" remote="legion" revision="11" >
+      <linkfile src="tools/build.py" dest="build.py" />
+  </project>
   <project path="vendor/google/gms" name="android_vendor_google_gms" remote="leg-lab" revision="11" />
   <project path="vendor/LegionParts" name="vendor_LegionParts" remote="legion" revision="11" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="legion" />
