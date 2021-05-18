@@ -203,6 +203,7 @@
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="legion"  />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="legion"  />
   <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="legion"  />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="legion" />
 
   <!-- Prebuilt -->
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="legion"  />
