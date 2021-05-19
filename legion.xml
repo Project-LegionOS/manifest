@@ -231,6 +231,7 @@
   <project path="vendor/legion" name="vendor_legion" remote="legion" revision="11" >
       <linkfile src="tools/build.py" dest="build.py" />
       <linkfile src="tools/tg.sh" dest="tg.sh" />
+      <linkfile src="tools/build.sh" dest="build.sh" />
       <linkfile src="tools/banner.jpg" dest="banner.jpg" />
   </project>
   <project path="vendor/google/gms" name="android_vendor_google_gms" remote="leg-lab" revision="11" />
