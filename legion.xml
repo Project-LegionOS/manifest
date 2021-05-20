@@ -61,7 +61,7 @@
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="lineage"  />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="legion"  />
   <project path="device/legion/sepolicy" name="device_legion_sepolicy" remote="legion"  />
-  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="lineage"  />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="legion"  />
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="legion" />
