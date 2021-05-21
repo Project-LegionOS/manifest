@@ -236,7 +236,7 @@
   </project>
   <project path="vendor/google/gms" name="android_vendor_google_gms" remote="leg-lab" revision="11" />
   <project path="vendor/LegionParts" name="vendor_LegionParts" remote="legion" revision="11" />
-  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="legion" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="lineage" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="lineage" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="lineage"  />
