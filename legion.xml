@@ -19,12 +19,6 @@
           revision="refs/heads/lineage-18.1"
           sync-j="8" />
 
-  <!-- AOSP_Common -->
-  <remote name="common"
-          fetch="https://github.com/AOSP-Common"
-          revision="refs/heads/11.0"
-          sync-j="8" />
-
   <!--Legion Lab-->
   <remote name="leg-lab"
           fetch="https://gitlab.com/projectlegionos"
@@ -65,7 +59,7 @@
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="legion" />
-  <project path="external/scudo" name="android_external_scudo" remote="common" />
+  <project path="external/scudo" name="external_scudo" remote="legion" />
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="legion"  />
   <project path="external/faceunlock" name="external_faceunlock" remote="leg-lab"  />
   <project path="external/libcxx" name="external_libcxx" remote="legion"  />
