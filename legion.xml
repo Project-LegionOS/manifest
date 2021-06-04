@@ -234,6 +234,7 @@
       <linkfile src="tools/build.py" dest="build.py" />
       <linkfile src="tools/build.sh" dest="build.sh" />
       <linkfile src="tools/banner.jpg" dest="banner.jpg" />
+      <linkfile src="legion.devices" dest="legion.devices" />
   </project>
   <project path="vendor/google/gms" name="android_vendor_google_gms" remote="leg-lab" revision="11" />
   <project path="vendor/LegionParts" name="vendor_LegionParts" remote="legion" revision="11" />
@@ -261,6 +262,7 @@
   <!-- OTA -->
   <project path="OTA" name="OTA" remote="LegionOS-Devices">
       <linkfile src="ota.sh" dest="ota.sh" />
+      <linkfile src="devices.json" dest="devices.json" />
   </project>
 
 </manifest>
