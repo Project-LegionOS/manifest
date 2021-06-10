@@ -196,6 +196,7 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="legion"  />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="legion"  />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="legion"  />
+  <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="legion" />
   <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="legion"  />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="legion" />
   <project path="packages/apps/GCamGOPrebuilt" name="packages_apps_GCamGOPrebuilt" remote="legion" />
