@@ -143,6 +143,7 @@
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="legion" />
 
   <!-- packages repos -->
+  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="legion" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="legion" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="legion" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="legion" />
