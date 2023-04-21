@@ -9,7 +9,7 @@ To get started with manifest/legionos, you'll need to get familiar with [Repo](h
 To initialize your local repository, use a command like this:
 
 ```bash
-repo init -u https://github.com/LegionOSFork/manifest.git -b s
+repo init -u https://github.com/Project-LegionOS/manifest.git -b s
 ```
 
 Then to sync up:

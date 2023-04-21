@@ -13,7 +13,7 @@
            revision="refs/heads/arrow-13.1" />
   
   <remote  name="legion"
-           fetch="https://github.com/legionosfork"
+           fetch="https://github.com/Project-LegionOS"
            revision="refs/heads/s" />
 
   <remote  name="LegionOS-Devices"
