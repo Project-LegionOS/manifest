@@ -193,9 +193,9 @@
   <!-- tools repos -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="legion" />
 
-
   <!-- vendor repos -->
   <project path="vendor/legion" name="android_vendor_legion" remote="legion" />
+  <project path="vendor/prebuilts" name="android_vendor_prebuilts" remote="legion" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="legion" />
   <project path="vendor/gapps" name="android_vendor_gapps" remote="leglab" clone-depth="1" />
   <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="arrow" />
