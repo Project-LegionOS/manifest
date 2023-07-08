@@ -230,4 +230,10 @@
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="arrow" />
   <project path="vendor/support" name="android_vendor_support" remote="legion" />
 
+  <!-- OTA -->
+  <project path="OTA" name="OTA" remote="LegionOS-Devices">
+      <linkfile src="ota.sh" dest="ota.sh" />
+      <linkfile src="devices.json" dest="devices.json" />
+  </project>
+
 </manifest>
